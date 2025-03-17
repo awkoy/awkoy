@@ -1,16 +1,8 @@
 # <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" height="30px" alt="Waving hand"> Hi, I'm Yaroslav Boiko
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6A5ACD&width=435&lines=Senior+Frontend+Developer;AI+Enthusiast;Team+Leader;Creative+Problem+Solver" alt="Typing SVG" />
-</div>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6A5ACD&width=435&lines=Senior-Software-Dev;AI+Enthusiast;Team+Spirit;Creative+Problem+Solver" alt="Typing SVG" />
 
-I'm a passionate software developer with over 8 years of experience across diverse industries including banking, e-commerce, logistics, and agriculture. With a strong foundation in frontend development, I'm currently working at Opik, focusing on developing eval LLM system to enhance human productivity and creativity. [Check out OPIK](https://github.com/comet-ml/opik)
-
-<div align="center">
-  <a href="https://github.com/awkoy">
-    <img src="https://github-readme-stats.vercel.app/api?username=awkoy&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  </a>
-</div>
+I'm a passionate software developer with over 8 years of experience across diverse industries including banking, e-commerce, logistics, and agriculture. With a strong foundation in frontend development, I'm currently working at [OPIK](https://github.com/comet-ml/opik), focusing on developing eval LLM system to enhance human productivity and creativity. 
 
 ## 🚀 Technical Toolkit
 
@@ -90,27 +82,10 @@ const aiExpertise = {
   </a>
 </div>
 
-## 📊 GitHub Activity
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=awkoy&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats">
-</div>
-
 ---
 
 <div align="center">
-  <p>📍 Barcelona, Spain</p>
-  <img src="https://komarev.com/ghpvc/?username=awkoy&style=flat-square&color=blue" alt="Profile Views">
-  <p>🌟 Open to exciting collaborations and conversations about AI and software development!</p>
+    <img src="https://komarev.com/ghpvc/?username=awkoy&style=flat-square&color=blue" alt="Profile Views">
+    <p>📍 Barcelona, Spain</p>
+    <p>🌟 Open to exciting collaborations and conversations about AI and software development!</p>
 </div>
-
-<!-- ASCII art signature -->
-```
- __   __                     _              ____        _ _          
- \ \ / /_ _ _ __ ___  ___| | __ ___   __| __ )  ___ (_) | _____   
-  \ V / _` | '__/ _ \/ __| |/ _` \ \ / /|  _ \ / _ \| | |/ / _ \  
-   | | (_| | | | (_) \__ \ | (_| |\ V / | |_) | (_) | |   < (_) | 
-   |_|\__,_|_|  \___/|___/_|\__,_| \_/  |____/ \___/|_|_|\_\___/  
-   
-   Where frontend expertise meets AI innovation
-``` 
