@@ -45,6 +45,14 @@ AI Engineer building developer tools for the agent era. 10+ years shipping produ
   </a>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/awkoy/awkoy/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/awkoy/awkoy/output/github-snake.svg" />
+    <img alt="contribution snake animation" src="https://raw.githubusercontent.com/awkoy/awkoy/output/github-snake.svg" />
+  </picture>
+</p>
+
 ## Elsewhere
 
 [LinkedIn](https://linkedin.com/in/yaroslav-boiko) · [yaroslavboiko.com](https://yaroslavboiko.com/) · [y.boikodevelop@gmail.com](mailto:y.boikodevelop@gmail.com)
