@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/awkoy/awkoy/main/assets/banner.svg" alt="Yaroslav Boiko — AI Engineer" />
 </p>
 
-AI Engineer building developer tools for the agent era. 10+ years shipping production software across frontend, backend, and ML eval infra. Currently on agent observability at [Comet ML](https://www.comet.com/) / [Opik](https://github.com/comet-ml/opik).
+AI Engineer. 10+ years across frontend, backend, and ML tooling — currently at [Comet ML](https://www.comet.com/) on [Opik](https://github.com/comet-ml/opik), keeping LLMs honest with traces, evals, and a healthy dose of skepticism.
 
 📍 Barcelona · ✍️ [yaroslavboiko.com](https://yaroslavboiko.com/) · ✉️ [y.boikodevelop@gmail.com](mailto:y.boikodevelop@gmail.com)
 
@@ -12,29 +12,29 @@ AI Engineer building developer tools for the agent era. 10+ years shipping produ
 
 | Project | What it is | |
 |---|---|---|
-| [**notion-mcp-server**](https://github.com/awkoy/notion-mcp-server) | Production-ready MCP server giving AI assistants full Notion API access | ⭐ 149 |
-| [**replicate-flux-mcp**](https://github.com/awkoy/replicate-flux-mcp) | MCP for Replicate's Flux — generate images & SVGs from inside your IDE | ⭐ 99 |
-| [**gsc-cli**](https://github.com/awkoy/gsc-cli) | LLM-friendly TypeScript CLI/SDK for the Google Search Console API | |
-| [**yaroslavboiko.com**](https://yaroslavboiko.com/) | Personal site + technical blog. Astro · Cloudflare Workers · Three.js | |
+| [**notion-mcp-server**](https://github.com/awkoy/notion-mcp-server) | Production MCP server for Notion. Full read/write for AI assistants — no hand-rolled wrappers required. | ⭐ 149 |
+| [**replicate-flux-mcp**](https://github.com/awkoy/replicate-flux-mcp) | Replicate's Flux as an MCP — your IDE generates images and SVGs without leaving the editor. | ⭐ 99 |
+| [**gsc-cli**](https://github.com/awkoy/gsc-cli) | LLM-friendly TypeScript CLI and SDK for Google Search Console. JSON in, JSON out, agents happy. | |
+| [**yaroslavboiko.com**](https://yaroslavboiko.com/) | Personal site and technical blog. Astro · Cloudflare Workers · a Three.js scene that earns its bytes. | |
 
 ## Recent writing
 
-- [**Stop Using Claude Code on Defaults**](https://yaroslavboiko.com/blog/claude-code-defaults/) — five settings I changed in `~/.claude/settings.json` to save tokens and stop approving `ls` for the 400th time
-- [**Agentic UX Primitives**](https://yaroslavboiko.com/blog/agentic-ux-primitives/) — streaming, HITL gates, reasoning traces, confidence indicators: the actual frontend patterns behind Cursor and Claude
-- [**Context Engineering Ate Prompt Engineering**](https://yaroslavboiko.com/blog/context-engineering/) — the skill replacing prompt engineering, and what separates AI-augmented developers from AI-dependent ones
-- [**The Vibe Coding Reckoning**](https://yaroslavboiko.com/blog/vibe-coding-reckoning/) — 92% of devs use AI daily, 41% of code is AI-generated, and the backlash has arrived
+- [**Stop Using Claude Code on Defaults**](https://yaroslavboiko.com/blog/claude-code-defaults/) — five settings I changed in `~/.claude/settings.json` to save tokens and stop approving `ls` for the 400th time.
+- [**Agentic UX Primitives**](https://yaroslavboiko.com/blog/agentic-ux-primitives/) — streaming, HITL gates, reasoning traces, confidence indicators: the frontend patterns behind products like Cursor and Claude.
+- [**Context Engineering Ate Prompt Engineering**](https://yaroslavboiko.com/blog/context-engineering/) — what's replacing prompt engineering, and how it separates AI-augmented developers from AI-dependent ones.
+- [**The Vibe Coding Reckoning**](https://yaroslavboiko.com/blog/vibe-coding-reckoning/) — 92% of devs use AI daily, 41% of code is AI-generated, and the backlash has arrived.
 
-→ Full archive at [yaroslavboiko.com/blog](https://yaroslavboiko.com/blog/)
+→ Full archive at [yaroslavboiko.com/blog](https://yaroslavboiko.com/blog/).
 
 ## How I actually work
 
-- **MCP-native.** Author of [`notion-mcp-server`](https://github.com/awkoy/notion-mcp-server) (149⭐) and [`replicate-flux-mcp`](https://github.com/awkoy/replicate-flux-mcp) (99⭐). TypeScript MCPs are my default tool surface for agents.
-- **SDKs over frameworks.** Anthropic and OpenAI directly. LangChain costs more in abstraction than it saves once you ship past a demo.
-- **Eval as discipline.** Every agent feature gets traces and offline evals via [Opik](https://github.com/comet-ml/opik) before it ships. "LGTM in chat" isn't a gate.
-- **Stream everything.** SSE for tokens, structured outputs over regex, HITL gates where mistakes are expensive — [more on this](https://yaroslavboiko.com/blog/agentic-ux-primitives/).
-- **Context engineering > prompt engineering.** Working set discipline, retrieval that earns its tokens, system prompts as code — [more](https://yaroslavboiko.com/blog/context-engineering/).
-- **TypeScript end to end** (Python when eval pipelines need it). Node + Postgres for state, `pgvector` when embeddings belong near the data they describe.
-- **Edge-first.** Cloudflare Workers for latency, Astro for content, React for apps, Three.js when interactivity earns the weight.
+- **MCP-native.** Author of [`notion-mcp-server`](https://github.com/awkoy/notion-mcp-server) (149⭐) and [`replicate-flux-mcp`](https://github.com/awkoy/replicate-flux-mcp) (99⭐). TypeScript MCPs are my default surface for anything agents need to touch.
+- **SDKs over frameworks.** Anthropic and OpenAI directly. LangChain hides what you actually need to control once you ship past a demo.
+- **Evals as a habit.** Every agent feature ships with traces and offline evals via [Opik](https://github.com/comet-ml/opik). "LGTM in chat" is not a gate.
+- **Stream everything.** Tokens over SSE, JSON-schema-validated outputs (not regex), HITL gates wherever a mistake costs more than a click — [more on this](https://yaroslavboiko.com/blog/agentic-ux-primitives/).
+- **Context engineering > prompt engineering.** Tight working sets, retrieval that earns its tokens, system prompts treated as code — [more](https://yaroslavboiko.com/blog/context-engineering/).
+- **TypeScript end to end** (Python when eval pipelines call for it). Node + Postgres for state. `pgvector` when embeddings belong next to the data.
+- **Edge-first infra.** Cloudflare Workers for latency, Astro for content, React for apps, Three.js when interactivity earns the weight.
 
 ## On GitHub
 
@@ -59,4 +59,4 @@ AI Engineer building developer tools for the agent era. 10+ years shipping produ
 
 [LinkedIn](https://linkedin.com/in/yaroslav-boiko) · [yaroslavboiko.com](https://yaroslavboiko.com/) · [y.boikodevelop@gmail.com](mailto:y.boikodevelop@gmail.com)
 
-> Open to interesting problems in MCP, agent infrastructure, and AI-augmented developer tooling — drop me a line.
+> Open to interesting problems in MCP, agent infrastructure, and AI-augmented developer tooling. If you're building something in that space — say hi.
