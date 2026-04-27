@@ -26,13 +26,15 @@ AI Engineer building developer tools for the agent era. 10+ years shipping produ
 
 → Full archive at [yaroslavboiko.com/blog](https://yaroslavboiko.com/blog/)
 
-## Stack I reach for
+## How I actually work
 
-**Languages** TypeScript · Python
-**Frontend** React · Next.js · Astro · Vue · TailwindCSS
-**Backend** Node · NestJS · PostgreSQL · Redis · Edge / Serverless
-**AI / Agents** MCP · Claude · OpenAI · Opik · CrewAI · LangGraph · RAG
-**Infra** Cloudflare Workers · AWS · Vercel · Supabase
+- **MCP-native.** Author of [`notion-mcp-server`](https://github.com/awkoy/notion-mcp-server) (149⭐) and [`replicate-flux-mcp`](https://github.com/awkoy/replicate-flux-mcp) (99⭐). TypeScript MCPs are my default tool surface for agents.
+- **SDKs over frameworks.** Anthropic and OpenAI directly. LangChain costs more in abstraction than it saves once you ship past a demo.
+- **Eval as discipline.** Every agent feature gets traces and offline evals via [Opik](https://github.com/comet-ml/opik) before it ships. "LGTM in chat" isn't a gate.
+- **Stream everything.** SSE for tokens, structured outputs over regex, HITL gates where mistakes are expensive — [more on this](https://yaroslavboiko.com/blog/agentic-ux-primitives/).
+- **Context engineering > prompt engineering.** Working set discipline, retrieval that earns its tokens, system prompts as code — [more](https://yaroslavboiko.com/blog/context-engineering/).
+- **TypeScript end to end** (Python when eval pipelines need it). Node + Postgres for state, `pgvector` when embeddings belong near the data they describe.
+- **Edge-first.** Cloudflare Workers for latency, Astro for content, React for apps, Three.js when interactivity earns the weight.
 
 ## On GitHub
 
