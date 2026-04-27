@@ -5,11 +5,6 @@
       <stop offset="0.5" stop-color="#13182b"/>
       <stop offset="1" stop-color="#0a0d18"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7c3aed"/>
-      <stop offset="0.5" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#7c3aed"/>
-    </linearGradient>
     <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1" fill="#ffffff" opacity="0.05"/>
     </pattern>
@@ -21,30 +16,64 @@
   <!-- terminal prompt header -->
   <text x="40" y="48" font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="13" fill="#22d3ee" opacity="0.75">~/awkoy<tspan fill="#94a3b8"> $ whoami</tspan></text>
 
-  <!-- streaming response dots -->
-  <g transform="translate(940 42)">
-    <circle cx="0"  cy="0" r="3" fill="#22d3ee"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite" begin="0s"/></circle>
-    <circle cx="14" cy="0" r="3" fill="#22d3ee"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite" begin="0.2s"/></circle>
-    <circle cx="28" cy="0" r="3" fill="#22d3ee"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite" begin="0.4s"/></circle>
-  </g>
-
   <!-- name -->
   <text x="40" y="120" font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="48" fill="#ffffff" font-weight="700">Yaroslav Boiko</text>
 
   <!-- role line -->
   <text x="40" y="160" font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="20" fill="#cbd5e1">AI Engineer · MCP &amp; agent infrastructure · 10+ years</text>
 
-  <!-- blinking caret -->
-  <rect x="700" y="142" width="3" height="22" fill="#22d3ee">
-    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;0.5;1"/>
-  </rect>
-
-  <!-- animated underline -->
-  <rect x="40" y="190" width="0" height="2" fill="url(#line)" rx="1">
-    <animate attributeName="width" from="0" to="920" dur="2.4s" begin="0s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0.6;1" dur="3s" begin="2.4s" repeatCount="indefinite"/>
-  </rect>
-
   <!-- footer keywords -->
-  <text x="40" y="218" font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="12" fill="#64748b">Building tools for the agent era · Barcelona</text>
+  <text x="40" y="206" font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="12" fill="#64748b">Building tools for the agent era · Barcelona</text>
+
+  <!-- pixel ghost (12x10 grid, 7px per cell = 84x70) -->
+  <g shape-rendering="crispEdges">
+    <g transform="translate(860 80)">
+      <animateTransform attributeName="transform" type="translate"
+        values="860,80; 860,74; 860,80" dur="2.6s" repeatCount="indefinite"/>
+
+      <!-- crown / dome -->
+      <rect x="21" y="0"  width="42" height="7" fill="#22d3ee"/>
+      <rect x="7"  y="7"  width="70" height="7" fill="#22d3ee"/>
+      <rect x="0"  y="14" width="84" height="7" fill="#22d3ee"/>
+      <rect x="0"  y="21" width="84" height="7" fill="#22d3ee"/>
+
+      <!-- eye row top: left margin / left white / nose / right white / right margin -->
+      <rect x="0"  y="28" width="14" height="7" fill="#22d3ee"/>
+      <rect x="14" y="28" width="21" height="7" fill="#ffffff"/>
+      <rect x="35" y="28" width="14" height="7" fill="#22d3ee"/>
+      <rect x="49" y="28" width="21" height="7" fill="#ffffff"/>
+      <rect x="70" y="28" width="14" height="7" fill="#22d3ee"/>
+
+      <!-- eye row middle: same base, pupils on top -->
+      <rect x="0"  y="35" width="14" height="7" fill="#22d3ee"/>
+      <rect x="14" y="35" width="21" height="7" fill="#ffffff"/>
+      <rect x="35" y="35" width="14" height="7" fill="#22d3ee"/>
+      <rect x="49" y="35" width="21" height="7" fill="#ffffff"/>
+      <rect x="70" y="35" width="14" height="7" fill="#22d3ee"/>
+
+      <!-- eye row bottom -->
+      <rect x="0"  y="42" width="14" height="7" fill="#22d3ee"/>
+      <rect x="14" y="42" width="21" height="7" fill="#ffffff"/>
+      <rect x="35" y="42" width="14" height="7" fill="#22d3ee"/>
+      <rect x="49" y="42" width="21" height="7" fill="#ffffff"/>
+      <rect x="70" y="42" width="14" height="7" fill="#22d3ee"/>
+
+      <!-- pupils -->
+      <rect x="21" y="35" width="7" height="7" fill="#0a0d18">
+        <animate attributeName="x" values="21;21;14;21;28;21;21" dur="6s" repeatCount="indefinite" keyTimes="0;0.2;0.35;0.55;0.7;0.85;1"/>
+      </rect>
+      <rect x="56" y="35" width="7" height="7" fill="#0a0d18">
+        <animate attributeName="x" values="56;56;49;56;63;56;56" dur="6s" repeatCount="indefinite" keyTimes="0;0.2;0.35;0.55;0.7;0.85;1"/>
+      </rect>
+
+      <!-- belly -->
+      <rect x="0" y="49" width="84" height="7" fill="#22d3ee"/>
+      <rect x="0" y="56" width="84" height="7" fill="#22d3ee"/>
+
+      <!-- wavy bottom: 3 humps with single-cell gaps -->
+      <rect x="0"  y="63" width="21" height="7" fill="#22d3ee"/>
+      <rect x="28" y="63" width="21" height="7" fill="#22d3ee"/>
+      <rect x="56" y="63" width="21" height="7" fill="#22d3ee"/>
+    </g>
+  </g>
 </svg>
