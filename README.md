@@ -15,7 +15,7 @@ AI Engineer building developer tools for the agent era. 10+ years shipping produ
 | [**notion-mcp-server**](https://github.com/awkoy/notion-mcp-server) | Production-ready MCP server giving AI assistants full Notion API access | ⭐ 149 |
 | [**replicate-flux-mcp**](https://github.com/awkoy/replicate-flux-mcp) | MCP for Replicate's Flux — generate images & SVGs from inside your IDE | ⭐ 99 |
 | [**gsc-cli**](https://github.com/awkoy/gsc-cli) | LLM-friendly TypeScript CLI/SDK for the Google Search Console API | |
-| [**yarbo-site**](https://github.com/awkoy/yarbo-site) | This blog + portfolio. Astro · Cloudflare Workers · Three.js | |
+| [**yaroslavboiko.com**](https://yaroslavboiko.com/) | Personal site + technical blog. Astro · Cloudflare Workers · Three.js | |
 
 ## Recent writing
 
