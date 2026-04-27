@@ -1,6 +1,8 @@
-# Yaroslav Boiko
+<p align="center">
+  <img src="https://raw.githubusercontent.com/awkoy/awkoy/main/assets/banner.svg" alt="Yaroslav Boiko — AI Engineer" />
+</p>
 
-AI-augmented software engineer building developer tools for the agent era. 8+ years across frontend, backend, and ML tooling. Currently shipping LLM eval infra at [Comet ML](https://www.comet.com/) on [Opik](https://github.com/comet-ml/opik).
+AI Engineer building developer tools for the agent era. 10+ years shipping production software across frontend, backend, and ML eval infra. Currently on agent observability at [Comet ML](https://www.comet.com/) / [Opik](https://github.com/comet-ml/opik).
 
 📍 Barcelona · ✍️ [yaroslavboiko.com](https://yaroslavboiko.com/) · ✉️ [y.boikodevelop@gmail.com](mailto:y.boikodevelop@gmail.com)
 
@@ -19,7 +21,7 @@ AI-augmented software engineer building developer tools for the agent era. 8+ ye
 
 - [**Stop Using Claude Code on Defaults**](https://yaroslavboiko.com/blog/claude-code-defaults/) — five settings I changed in `~/.claude/settings.json` to save tokens and stop approving `ls` for the 400th time
 - [**Agentic UX Primitives**](https://yaroslavboiko.com/blog/agentic-ux-primitives/) — streaming, HITL gates, reasoning traces, confidence indicators: the actual frontend patterns behind Cursor and Claude
-- [**Context Engineering Ate Prompt Engineering**](https://yaroslavboiko.com/blog/context-engineering/) — the skill replacing prompt engineering, and how it separates AI-augmented developers from AI-dependent ones
+- [**Context Engineering Ate Prompt Engineering**](https://yaroslavboiko.com/blog/context-engineering/) — the skill replacing prompt engineering, and what separates AI-augmented developers from AI-dependent ones
 - [**The Vibe Coding Reckoning**](https://yaroslavboiko.com/blog/vibe-coding-reckoning/) — 92% of devs use AI daily, 41% of code is AI-generated, and the backlash has arrived
 
 → Full archive at [yaroslavboiko.com/blog](https://yaroslavboiko.com/blog/)
@@ -32,8 +34,19 @@ AI-augmented software engineer building developer tools for the agent era. 8+ ye
 **AI / Agents** MCP · Claude · OpenAI · Opik · CrewAI · LangGraph · RAG
 **Infra** Cloudflare Workers · AWS · Vercel · Supabase
 
+## On GitHub
+
+<p align="center">
+  <a href="https://github.com/awkoy">
+    <img src="https://github-readme-stats.vercel.app/api?username=awkoy&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" height="170" alt="GitHub stats" />
+  </a>
+  <a href="https://github.com/awkoy">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=awkoy&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" height="170" alt="Top languages" />
+  </a>
+</p>
+
 ## Elsewhere
 
 [LinkedIn](https://linkedin.com/in/yaroslav-boiko) · [yaroslavboiko.com](https://yaroslavboiko.com/) · [y.boikodevelop@gmail.com](mailto:y.boikodevelop@gmail.com)
 
-> Open to conversations on MCP, agent infrastructure, and developer tooling for the AI-augmented stack.
+> Open to interesting problems in MCP, agent infrastructure, and AI-augmented developer tooling — drop me a line.

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" role="img" aria-label="Yaroslav Boiko · AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0d18"/>
+      <stop offset="0.5" stop-color="#13182b"/>
+      <stop offset="1" stop-color="#0a0d18"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="240" fill="url(#bg)"/>
+  <rect width="1000" height="240" fill="url(#dots)"/>
+
+  <!-- terminal prompt header -->
+  <text x="40" y="48" font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="13" fill="#22d3ee" opacity="0.75">~/awkoy<tspan fill="#94a3b8"> $ whoami</tspan></text>
+
+  <!-- streaming response dots -->
+  <g transform="translate(940 42)">
+    <circle cx="0"  cy="0" r="3" fill="#22d3ee"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite" begin="0s"/></circle>
+    <circle cx="14" cy="0" r="3" fill="#22d3ee"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="28" cy="0" r="3" fill="#22d3ee"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite" begin="0.4s"/></circle>
+  </g>
+
+  <!-- name -->
+  <text x="40" y="120" font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="48" fill="#ffffff" font-weight="700">Yaroslav Boiko</text>
+
+  <!-- role line -->
+  <text x="40" y="160" font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="20" fill="#cbd5e1">AI Engineer · MCP &amp; agent infrastructure · 10+ years</text>
+
+  <!-- blinking caret -->
+  <rect x="700" y="142" width="3" height="22" fill="#22d3ee">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite" keyTimes="0;0.5;0.5;1"/>
+  </rect>
+
+  <!-- animated underline -->
+  <rect x="40" y="190" width="0" height="2" fill="url(#line)" rx="1">
+    <animate attributeName="width" from="0" to="920" dur="2.4s" begin="0s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.6;1" dur="3s" begin="2.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- footer keywords -->
+  <text x="40" y="218" font-family="ui-monospace, SF Mono, Menlo, monospace" font-size="12" fill="#64748b">Building tools for the agent era · Barcelona</text>
+</svg>
