@@ -1,40 +1,60 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/awkoy/awkoy/main/assets/banner.svg" alt="Yaroslav Boiko — AI Engineer" />
+  <img src="https://raw.githubusercontent.com/awkoy/awkoy/main/assets/banner.svg" alt="Yaroslav Boiko - Product Engineer" />
 </p>
 
-AI Engineer. 10+ years across frontend, backend, and ML tooling — currently at [Comet ML](https://www.comet.com/) on [Opik](https://github.com/comet-ml/opik), keeping LLMs honest with traces, evals, and a healthy dose of skepticism.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=awkoy&label=profile%20views&color=0a2540&style=flat" alt="Profile views" />
+  <a href="https://github.com/comet-ml/opik/pulls?q=is%3Apr+author%3Aawkoy">
+    <img src="https://img.shields.io/badge/OPIK%20PRs-279-0a2540?style=flat" alt="279 public OPIK PRs" />
+  </a>
+  <a href="https://github.com/comet-ml/opik">
+    <img src="https://img.shields.io/github/stars/comet-ml/opik?style=flat&label=OPIK%20stars&color=0a2540" alt="OPIK GitHub stars" />
+  </a>
+</p>
 
-📍 Barcelona · ✍️ [yaroslavboiko.com](https://yaroslavboiko.com/) · ✉️ [y.boikodevelop@gmail.com](mailto:y.boikodevelop@gmail.com)
+Product engineer building developer tools, TypeScript SDKs, APIs, and workflow infrastructure for complex product systems. Currently at [Comet ML](https://www.comet.com/) working on [OPIK](https://github.com/comet-ml/opik): open-source tooling for debugging, evaluating, and monitoring LLM applications.
+
+I work across product surfaces, typed SDK behavior, API contracts, integrations, evaluation workflows, datasets, guardrails, and developer experience. The recurring challenge is making complex workflow behavior understandable, composable, and maintainable without forcing developers into one rigid application shape.
+
+Barcelona · [yaroslavboiko.com](https://yaroslavboiko.com/) · [LinkedIn](https://www.linkedin.com/in/awkoy/) · [Email](mailto:y.boikodevelop@gmail.com)
 
 ---
 
-## What I'm building
+## Selected work
 
-| Project | What it is | |
-|---|---|---|
-| [**notion-mcp-server**](https://github.com/awkoy/notion-mcp-server) | Production MCP server for Notion. Full read/write for AI assistants — no hand-rolled wrappers required. | ⭐ 149 |
-| [**replicate-flux-mcp**](https://github.com/awkoy/replicate-flux-mcp) | Replicate's Flux as an MCP — your IDE generates images and SVGs without leaving the editor. | ⭐ 99 |
-| [**gsc-cli**](https://github.com/awkoy/gsc-cli) | LLM-friendly TypeScript CLI and SDK for Google Search Console. JSON in, JSON out, agents happy. | |
-| [**yaroslavboiko.com**](https://yaroslavboiko.com/) | Personal site and technical blog. Astro · Cloudflare Workers · a Three.js scene that earns its bytes. | |
+| Project | What it proves | Stars |
+| --- | --- | --- |
+| [**OPIK**](https://github.com/comet-ml/opik) | Core contributor to Comet ML's open-source LLM evaluation and observability platform. Work spans product workflows, SDK surfaces, API boundaries, integrations, datasets, guardrails, and developer tooling. | ![OPIK stars](https://img.shields.io/github/stars/comet-ml/opik?style=flat&label=stars&color=0a2540) |
+| [**OPIK MCP**](https://github.com/comet-ml/opik-mcp) | Public contribution work on Comet ML's MCP server for bringing OPIK workflows into assistant-enabled development environments. | ![OPIK MCP stars](https://img.shields.io/github/stars/comet-ml/opik-mcp?style=flat&label=stars&color=0a2540) |
+| [**notion-mcp-server**](https://github.com/awkoy/notion-mcp-server) | MCP server for Notion pages, databases, and workspace workflows through typed tool interfaces. | ![notion-mcp-server stars](https://img.shields.io/github/stars/awkoy/notion-mcp-server?style=flat&label=stars&color=0a2540) |
+| [**replicate-flux-mcp**](https://github.com/awkoy/replicate-flux-mcp) | Focused MCP server for Replicate Flux image-generation workflows with inspectable inputs and outputs. | ![replicate-flux-mcp stars](https://img.shields.io/github/stars/awkoy/replicate-flux-mcp?style=flat&label=stars&color=0a2540) |
+| [**yaroslavboiko.com**](https://yaroslavboiko.com/) | Personal site and technical writing. Astro, Cloudflare Workers, typed content, and a Three.js scene that earns its bytes. | |
+
+## Technical focus
+
+- **Product engineering for expert workflows.** I turn ambiguous workflows into reliable product surfaces, APIs, SDKs, and reusable abstractions.
+- **TypeScript SDKs and API design.** Typed boundaries, compatibility tradeoffs, integration behavior, and debugging feedback loops.
+- **React product interfaces.** Complex stateful workflows, evaluations, datasets, guardrails, playgrounds, and developer-facing UX.
+- **Open-source maintenance.** Reviewable changes, stable interfaces, practical examples, and visible contribution history.
+- **MCP-native integrations.** Not as a headline identity, but as a useful surface for connecting developer environments to real tools.
 
 ## Recent writing
 
-- [**Stop Using Claude Code on Defaults**](https://yaroslavboiko.com/blog/claude-code-defaults/) — five settings I changed in `~/.claude/settings.json` to save tokens and stop approving `ls` for the 400th time.
-- [**Agentic UX Primitives**](https://yaroslavboiko.com/blog/agentic-ux-primitives/) — streaming, HITL gates, reasoning traces, confidence indicators: the frontend patterns behind products like Cursor and Claude.
-- [**Context Engineering Ate Prompt Engineering**](https://yaroslavboiko.com/blog/context-engineering/) — what's replacing prompt engineering, and how it separates AI-augmented developers from AI-dependent ones.
-- [**The Vibe Coding Reckoning**](https://yaroslavboiko.com/blog/vibe-coding-reckoning/) — 92% of devs use AI daily, 41% of code is AI-generated, and the backlash has arrived.
+- [**Stop Using Claude Code on Defaults**](https://yaroslavboiko.com/blog/claude-code-defaults/) - five settings I changed in `~/.claude/settings.json` to save tokens and stop approving `ls` for the 400th time.
+- [**Agentic UX Primitives**](https://yaroslavboiko.com/blog/agentic-ux-primitives/) - streaming, HITL gates, reasoning traces, confidence indicators: the frontend patterns behind products like Cursor and Claude.
+- [**Context Engineering Ate Prompt Engineering**](https://yaroslavboiko.com/blog/context-engineering/) - what's replacing prompt engineering, and how it separates AI-augmented developers from AI-dependent ones.
+- [**The Vibe Coding Reckoning**](https://yaroslavboiko.com/blog/vibe-coding-reckoning/) - AI coding tools changed the pace of software work, but production engineering still comes down to understanding, review, and ownership.
 
-→ Full archive at [yaroslavboiko.com/blog](https://yaroslavboiko.com/blog/).
+Full archive: [yaroslavboiko.com/blog](https://yaroslavboiko.com/blog/)
 
-## How I actually work
+## How I work
 
-- **MCP-native.** Author of [`notion-mcp-server`](https://github.com/awkoy/notion-mcp-server) (149⭐) and [`replicate-flux-mcp`](https://github.com/awkoy/replicate-flux-mcp) (99⭐). TypeScript MCPs are my default surface for anything agents need to touch.
-- **SDKs over frameworks.** Anthropic and OpenAI directly. LangChain hides what you actually need to control once you ship past a demo.
-- **Evals as a habit.** Every agent feature ships with traces and offline evals via [Opik](https://github.com/comet-ml/opik). "LGTM in chat" is not a gate.
-- **Stream everything.** Tokens over SSE, JSON-schema-validated outputs (not regex), HITL gates wherever a mistake costs more than a click — [more on this](https://yaroslavboiko.com/blog/agentic-ux-primitives/).
-- **Context engineering > prompt engineering.** Tight working sets, retrieval that earns its tokens, system prompts treated as code — [more](https://yaroslavboiko.com/blog/context-engineering/).
-- **TypeScript end to end** (Python when eval pipelines call for it). Node + Postgres for state. `pgvector` when embeddings belong next to the data.
-- **Edge-first infra.** Cloudflare Workers for latency, Astro for content, React for apps, Three.js when interactivity earns the weight.
+- **Specs before cleverness.** I prefer clear tradeoffs, small interfaces, and written constraints over impressive-looking demos.
+- **SDKs over one-off adapters.** If behavior crosses product boundaries, it needs typed contracts and examples people can trust.
+- **Evals as a habit.** Agentic features need traces, offline evals, and reproducible feedback loops. "Looks good in chat" is not a gate.
+- **Stream everything that should feel alive.** SSE, structured outputs, and human-in-the-loop gates where mistakes cost more than a click.
+- **Context engineering over prompt theater.** Tight working sets, retrieval that earns its tokens, and prompts treated as code.
+- **TypeScript end to end.** React and Node for product surfaces, Python when eval or ML tooling makes it the right tool.
 
 ## On GitHub
 
@@ -57,6 +77,4 @@ AI Engineer. 10+ years across frontend, backend, and ML tooling — currently at
 
 ## Elsewhere
 
-[LinkedIn](https://linkedin.com/in/yaroslav-boiko) · [yaroslavboiko.com](https://yaroslavboiko.com/) · [y.boikodevelop@gmail.com](mailto:y.boikodevelop@gmail.com)
-
-> Open to interesting problems in MCP, agent infrastructure, and AI-augmented developer tooling. If you're building something in that space — say hi.
+[LinkedIn](https://www.linkedin.com/in/awkoy/) · [yaroslavboiko.com](https://yaroslavboiko.com/) · [Email](mailto:y.boikodevelop@gmail.com)
