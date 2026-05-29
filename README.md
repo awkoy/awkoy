@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=awkoy&label=profile%20views&color=0a2540&style=flat" alt="Profile views" />
   <a href="https://github.com/comet-ml/opik/pulls?q=is%3Apr+author%3Aawkoy">
-    <img src="https://img.shields.io/badge/OPIK%20PRs-279-0a2540?style=flat" alt="279 public OPIK PRs" />
+    <img src="https://img.shields.io/badge/OPIK%20PRs-281-0a2540?style=flat" alt="281 public OPIK PRs" />
   </a>
   <a href="https://github.com/comet-ml/opik">
     <img src="https://img.shields.io/github/stars/comet-ml/opik?style=flat&label=OPIK%20stars&color=0a2540" alt="OPIK GitHub stars" />
@@ -14,7 +14,7 @@
 
 Product engineer building developer tools, TypeScript SDKs, APIs, and workflow infrastructure for complex product systems. Currently at [Comet ML](https://www.comet.com/) working on [OPIK](https://github.com/comet-ml/opik): open-source tooling for debugging, evaluating, and monitoring LLM applications.
 
-I work across product surfaces, typed SDK behavior, API contracts, integrations, evaluation workflows, datasets, guardrails, and developer experience. The recurring challenge is making complex workflow behavior understandable, composable, and maintainable without forcing developers into one rigid application shape.
+I work across product surfaces, Ollie assistant workflows, typed SDK behavior, API contracts, integrations, evaluation workflows, datasets, guardrails, and developer experience. The recurring challenge is making complex workflow behavior understandable, composable, and maintainable without forcing developers into one rigid application shape.
 
 Barcelona · [yaroslavboiko.com](https://yaroslavboiko.com/) · [LinkedIn](https://www.linkedin.com/in/awkoy/) · [Email](mailto:y.boikodevelop@gmail.com)
 
@@ -24,10 +24,10 @@ Barcelona · [yaroslavboiko.com](https://yaroslavboiko.com/) · [LinkedIn](https
 
 | Project | What it proves | Stars |
 | --- | --- | --- |
-| [**OPIK**](https://github.com/comet-ml/opik) | Core contributor to Comet ML's open-source LLM evaluation and observability platform. Work spans product workflows, SDK surfaces, API boundaries, integrations, datasets, guardrails, and developer tooling. | ![OPIK stars](https://img.shields.io/github/stars/comet-ml/opik?style=flat&label=stars&color=0a2540) |
-| [**OPIK MCP**](https://github.com/comet-ml/opik-mcp) | Public contribution work on Comet ML's MCP server for bringing OPIK workflows into assistant-enabled development environments. | ![OPIK MCP stars](https://img.shields.io/github/stars/comet-ml/opik-mcp?style=flat&label=stars&color=0a2540) |
+| [**OPIK**](https://github.com/comet-ml/opik) | Core contributor to Comet ML's open-source LLM evaluation and observability platform. Work spans product workflows, Ollie assistant infrastructure, SDK surfaces, API boundaries, integrations, datasets, guardrails, and developer tooling. | ![OPIK stars](https://img.shields.io/github/stars/comet-ml/opik?style=flat&label=stars&color=0a2540) |
 | [**notion-mcp-server**](https://github.com/awkoy/notion-mcp-server) | MCP server for Notion pages, databases, and workspace workflows through typed tool interfaces. | ![notion-mcp-server stars](https://img.shields.io/github/stars/awkoy/notion-mcp-server?style=flat&label=stars&color=0a2540) |
 | [**replicate-flux-mcp**](https://github.com/awkoy/replicate-flux-mcp) | Focused MCP server for Replicate Flux image-generation workflows with inspectable inputs and outputs. | ![replicate-flux-mcp stars](https://img.shields.io/github/stars/awkoy/replicate-flux-mcp?style=flat&label=stars&color=0a2540) |
+| [**OPIK MCP**](https://github.com/comet-ml/opik-mcp) | Public contribution work on Comet ML's MCP server for connecting OPIK prompts, projects, traces, and metrics to assistant-enabled developer environments. | ![OPIK MCP stars](https://img.shields.io/github/stars/comet-ml/opik-mcp?style=flat&label=stars&color=0a2540) |
 | [**yaroslavboiko.com**](https://yaroslavboiko.com/) | Personal site and technical writing. Astro, Cloudflare Workers, typed content, and a Three.js scene that earns its bytes. | |
 
 ## Technical focus
